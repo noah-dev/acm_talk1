@@ -11,7 +11,7 @@ Noah
 
 ## Eightball
 
-![Demo](https://github.com/noah-dev/acm_talk1/blob/master/idle_eightball_demo)
+![Demo](https://github.com/noah-dev/acm_talk1/blob/master/images/idle_eightball_demo.gif)
 
 A Magic 8-ball is a toy used for fortune-telling; ask a question and then shake it. The Magic 8-ball will dispaly a response. For this simple Python app, we'll use that as the basis for learning Python IDLE and using it to build the app. We will also cover Visual Studio Code, an advanced editor with many useful features. 
 
@@ -62,17 +62,17 @@ Once installed, you can use VSC to open a folder and view the different files & 
 
 Out of the box, VSC has syntax highlighting, which color-codes different kinds of code; functions are painted in blue, statments in purple, and so on. But what if we want a different color pallete? No problem, We can add new new themes by installing extensions. Click on the 4th menu item to bring up the extensions view and search for "Dracula"
 
-![VSC Theme Install](https://github.com/noah-dev/acm_talk1/blob/master/images/vsc_theme_install_apply)
+![VSC Theme Install](https://github.com/noah-dev/acm_talk1/blob/master/images/vsc_theme_install_apply.gif)
 
 As you can see, after installing & applying theme, we now have this purple on purple color scheme. If you want to see other avalible themes, searhc for "themes" instead of dracula. 
 
 If you have a python file in the project folder, VSC may have given you a helpful pop-up, imploring you to install the Python extension. Search for "Python" from the extensions view. (Not gif below)
 
-![VSC Python Ext.](https://github.com/noah-dev/acm_talk1/blob/master/images/vsc_python_extension)
+![VSC Python Ext.](https://github.com/noah-dev/acm_talk1/blob/master/images/vsc_python_extension.PNG)
 
 Once installed, VSC gains a lot more features that can aid in Python development. For example, it comes with a linter. A linter will, after saving a python file, inspect the code and highlight any syntax errors it detects. (Sorta like how Microsoft Word has spell checker. )
 
-![VSC Python Linter](https://github.com/noah-dev/acm_talk1/blob/master/images/vsc_python_linter)
+![VSC Python Linter](https://github.com/noah-dev/acm_talk1/blob/master/images/vsc_python_linter.gif)
 
 I created a typo, and then saved the file. The linter, pylint, inspected the code and realized that "chooice" had never been defined before. It highlighted the code with red, and gave a message upon mouse over. 
 
@@ -80,7 +80,7 @@ Finally, if you want to run the code from VSC, there are several options; extens
 
 Go to view, and bring up the integrated terminal. 
 
-![VSC Terminal](https://github.com/noah-dev/acm_talk1/blob/master/images/vsc_terminal)
+![VSC Terminal](https://github.com/noah-dev/acm_talk1/blob/master/images/vsc_terminal_run_python.gif)
 
 A menu pops up at the bottom, and automatically opens in the project path. Using the python command, we can run the eightball program. It prompts for user input, and we can get an answer. 
 
