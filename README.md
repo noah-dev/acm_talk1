@@ -38,11 +38,11 @@ What we need is a way to random generate numbers. To do that, we will import the
 
 ![Random (Pseudo-Random) Integar](https://github.com/noah-dev/acm_talk1/blob/master/images/idle_randint.gif)
 
-As shown above, each time the randint function runs, it provides a different number. The two parameters, in the parenthesis, determine the range of numbers it will return. It is able to randomly pick one of these numbers: 1,2,3,4,5, or 6. 
+As shown above, each time the randint function runs, it provides a different number. The two parameters, in the parenthesis, determine the range of numbers it will return. It is able to randomly pick one of these numbers: 1,2,3,4,5, or 6. Python's random module, like others, uses a seed to generate the number. By default, it will use the seeds from current time or from an operating system specific randomness source if available. (A seed can also be manually set).
 
-**A word of caution:** Generating "true" random numbers is a very complicated topic. With the random module, and other random number generators, it generates pseudo-random numbers. These are numbers that appear to be random, but can be predicted. For an application like this, pseudo-random is good enough. For the sake of readability, I will use the word "random" in place of pseudo-random. 
+**A word of caution:** Generating "true" random numbers is a very complicated topic. With the random module, and other random number generators, it generates pseudo-random numbers. These are numbers that appear to be random, but can be predicted. In fact, if you set seed manually, you would get the same sequence of numbers every time. For the sake of readability, I will use the word "random" in place of pseudo-random. 
 
-(To the person who asked about seed issues: Great question, but in retrospect I think I jumped the gun; I am not quite sure which specific issue you are referring to, so please take a look at the official Python docs & source code for more info: [For 3](https://docs.python.org/3/library/random.html) [For 2](https://docs.python.org/2/library/random.html))
+>To the person who asked about seed issues: Great question, but in retrospect I think I jumped the gun; I am not quite sure which specific issue you are referring to, so please take a look at the official Python docs & source code for more info: [For 3](https://docs.python.org/3/library/random.html) [For 2](https://docs.python.org/2/library/random.html)
 
 Using the random number, we will provide an answer based on that. We will also use the input() function to prompt the user to type in a question. Just like the Magic 8-ball, we won't actually use the response when determining the answer. 
 
