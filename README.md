@@ -1,9 +1,11 @@
 ## Building a simple Python App with Python IDLE & Visual Studio Code
 This is a synopsis of the talk given on 8/30, at the UMKC ACM meeting. Before we begin, a word from the speaker:
 
-Before we begin, I'd like to thank everybody for attending. There were teething issues and I thank you for your patience. That said, I want to be very clear on this: the quality was far below my standards and I apologize for the poor experience. If you found the content interesting, but the talk otherwise, I am creating this synopsis to provide a more compact resource that you may refer to. 
+Before we begin, I'd like to thank everybody for attending. There were teething issues and I thank you for your patience. But that is no excuse: the streaming choppiness, failure to repeat questions, and delivery, among other things, all lead to a poor experience. I am sorry and I am committed to restarting on the right foot. 
 
-Looking forward, you can expect a synopsis of talks and slide-decks & demo code made available in at least a week of advance. This info will give you a preview of the event, and better inform your decision to attend. If you are interested in attending future events, I encourage you to take a look.
+To that end, I have written this document up. If you found the content interesting, but the talk otherwise, I am creating this synopsis to provide a more compact resource that you may refer to. 
+
+Looking forward, you can expect a synopsis of meetings & demo code made available in at least a week of advance. This info will give you a preview of the event, and better inform your decision to attend. If you are interested in attending future events, I encourage you to take a look.
 
 Thank you for your time,
 
